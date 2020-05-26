@@ -19,4 +19,4 @@ entry list from to = map
 main = do
 
 print $ entry [1,2,3,4,1] 1 3
--- [3,2,3,4,3]
+-- [3,2,3,4,3] 
