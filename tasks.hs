@@ -9,3 +9,14 @@ main = do
     print $ combination [1, 2] [1]
     print "Test 2"
     print $ combination [1, 2] [3]
+
+--2. Определите функцию, заменяющую в исходном списке все вхождения заданного значения другим.
+
+entry list from to = map 
+    (\b -> if b == from
+    then to else b) list
+   
+main = do
+
+print $ entry [1,2,3,4,1] 1 3
+-- [3,2,3,4,3]
